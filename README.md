@@ -13,10 +13,29 @@
    ![image](https://github.com/ali0999109/chatgpt/assets/145396907/31c4f79d-d0c4-4189-8b3b-eadc6454e03b)
    ---
 
-   - Prompt configuration > Promt how can i remediate > add dynamic content > Select Incident title > then type with description of in the prompt > select incident description
+   - Prompt configuration > Promt how can i remediate > add dynamic content > Select Incident title > then type with description of in 
+     the prompt > select incident description
+     
      ![image](https://github.com/ali0999109/chatgpt/assets/145396907/2e90a5b8-1ef6-4ff8-8abb-670cc47d1049)
+     ----
 
-   - Select new step > search for add
+   - Select new step > search for add comment to incident and select
+     
+     ![image](https://github.com/ali0999109/chatgpt/assets/145396907/7a9f5a69-b2d6-492e-8699-572d9177df57)
+     --
+
+     - Incident ARM Id select Incident ARM id in the dynamic content
+       
+       ![image](https://github.com/ali0999109/chatgpt/assets/145396907/f4a504d2-b2ca-4fab-a314-32ea07ae273f)
+       ---
+
+       -Incident comment message go to the dynamic content and select see more > select text > click on save
+       ![image](https://github.com/ali0999109/chatgpt/assets/145396907/8265a56a-3949-4b2f-ac92-a8d80bd198b1)
+
+
+
+     
+
       
 
 
