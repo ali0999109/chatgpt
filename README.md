@@ -1,4 +1,4 @@
-[Incident+Examples.txt](https://github.com/ali0999109/chatgpt/files/13061808/Incident%2BExamples.txt)# Create playbook for ChatGPT from scratch in Azure cloud
+(https://github.com/ali0999109/chatgpt/files/13061808/Incident%2BExamples.txt)# Create playbook for ChatGPT from scratch in Azure cloud
 - Search microsoft sentinel in azure > click on automation > create > playbook with incident trigger >
 - 
   ![image](https://github.com/ali0999109/chatgpt/assets/145396907/0b1d4930-752f-49b5-b133-9bea136ce29e)
@@ -86,7 +86,12 @@
 
 
 # Create cybersecurity incident in SIEM
-- Go to Microsoft sentinel > Incidents > Create incident > give it a name > description [Uploading Incident+Examples.txt…]()
+- Go to Microsoft sentinel > Incidents > Create incident > name Potential Kerberoasing > Description > Copy & paste the following A service principal name (SPN) is used to uniquely identify a service instance in a Windows environment. Each SPN is usually associated with a service account. Organizations may have used service accounts with weak passwords in their environment. An attacker can try requesting Kerberos ticket-granting service (TGS) service tickets for any SPN from a domain controller (DC) which contains a hash of the Service account. This can then be used for offline cracking. This hunting query looks for accounts that are generating excessive requests to different resources within the last hour compared with the previous 24 hours. Normal users would not make an unusually large number of request within a small time window. This is based on 4769 events which can be very noisy so environment-based tweaking might be needed. > create
+
+- Click on the incident > view full details > activity log
+- You have successfully integrated with chatGPT
+![image](https://github.com/ali0999109/chatgpt/assets/145396907/4944d12e-44cf-481d-8ff4-289128729a22)
+
 
 
 
@@ -95,6 +100,12 @@
 
 
 # Complex integration of AI with SIEM
+- Go to this GitHub repository and deploy to azure https://github.com/format81/MicrosoftSentinel-ChatGPT-playbook > create your playbook
+- Go to RG and click on the newly created playbook
+- 
+- 
+
+
 
 
 
