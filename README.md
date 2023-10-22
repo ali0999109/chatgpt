@@ -101,20 +101,35 @@
 
 # Complex integration of AI with SIEM
 - Go to this GitHub repository and deploy to azure https://github.com/format81/MicrosoftSentinel-ChatGPT-playbook > create your playbook
-- Go to RG and click on the newly created playbook
-- 
-- 
+- Go to Resource Group and click on the newly created playbook
+- Move to logic app designer
+- click on connections
+- change to ChatGPT it will use your previous playbooks config
+  ![image](https://github.com/ali0999109/chatgpt/assets/145396907/c2953f68-03d9-49df-9a29-f91286e71e5c)
+  
+
+  - Click on for each and change connection to chatGPT
+  - Save
+  - Go to your resource group
+  - Access control
+  - Add role assignment
+  - Mircosoft sentinel responder
+  - Managed identity
+  - Select your playbook 
+  - Review & assign
+  - Go to incidents and run your playbook you will get a lot more detail now with added KQL recommendations
+    ![image](https://github.com/ali0999109/chatgpt/assets/145396907/4e2071db-cae3-4926-9bbe-ff0f6ce4b039)
+
+    
+    
+    
 
 
 
 
 
 
-# Alternative option for ChatGPT integration with SIEM
 
 
 
 
-
-
-# Cleaning up Microsoft Sentinel to achieve zero cost
