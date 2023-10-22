@@ -1,4 +1,4 @@
-(https://github.com/ali0999109/chatgpt/files/13061808/Incident%2BExamples.txt)# Create playbook for ChatGPT from scratch in Azure cloud
+# Create playbook for ChatGPT from scratch in Azure cloud
 - Search microsoft sentinel in azure > click on automation > create > playbook with incident trigger >
 - 
   ![image](https://github.com/ali0999109/chatgpt/assets/145396907/0b1d4930-752f-49b5-b133-9bea136ce29e)
